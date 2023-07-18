@@ -1,10 +1,11 @@
 import "./App.css";
+import CVView from "./components/views/CVView";
 
 function App() {
   return (
-    <>
-      <p>Hello World</p>
-    </>
+    <div className="container">
+      <CVView />
+    </div>
   );
 }
 
